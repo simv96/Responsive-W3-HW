@@ -6,12 +6,12 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 75px;
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -22,7 +22,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-  text-align: center;
 }
 
 h3 {
@@ -96,4 +95,26 @@ p {
   color: white;
   text-decoration: none;
   box-shadow: var(--box-shadow);
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .homepage-img {
+    display: none;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
 }
